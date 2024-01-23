@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<UserSecretsId>74dffc39-ab09-4d50-90c6-2e6f69d69767</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>.</DockerfileContext>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FFTSInternalCommonDBUtils" Version="1.0.55" />
+		<PackageReference Include="FFTSInternalCommonUtils" Version="1.0.88" />
+		<PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="3.2.0" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="4.0.0" />
+		<PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.4.1" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+		<PackageReference Include="Pulsar.Client" Version="2.11.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	</ItemGroup>
+
+</Project>
